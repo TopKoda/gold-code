@@ -5,7 +5,7 @@ Johnny Mac - 20 Apr 2023
 """
 import boto3
 import os
-import time
+from datetime import datetime
 
 def lambda_handler(event, context):
     # Retrieve the queue URL from the environment variable
